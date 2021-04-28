@@ -68,4 +68,8 @@ Example:
 docker run -it -d --name hyshark --net host --pid=host --ipc=host --cap-add NET_ADMIN --privileged hub.c.163.com/monsterhy/wireshark nsenter -t 11916 -n wireshark --fullscreen
 ```
 
+## Step 3. Visit wireshark in your browser
+
+![image](https://user-images.githubusercontent.com/5361248/116384508-7e016900-a84a-11eb-8354-e5d8167835ef.png)
+
 
