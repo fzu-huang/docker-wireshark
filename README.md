@@ -72,4 +72,4 @@ docker run -it -d --name hyshark --net host --pid=host --ipc=host --cap-add NET_
 
 ![image](https://user-images.githubusercontent.com/5361248/116384508-7e016900-a84a-11eb-8354-e5d8167835ef.png)
 
-
+you can get more info in https://github.com/ffeldhaus/docker-wireshark
