@@ -51,6 +51,15 @@ In order to ensure security, the startup user is specified in the base image `ff
 
 # Build
 
+```
+docker build  --network=host -f   ./Dockerfile.docker-xpra-minimal  -t fzu-huang/docker-xpra-minimal .
+
+docker build --network=host -f ./Dockerfile.docker-xpra-html5-minimal  -t fzu-huang/docker-xpra-html5-minimal .
+
+docker build --network=host -f ./Dockerfile.wireshark  -t fzu-huang/wireshark . 
+
+```
+
 # Usage
 
 ## Step 1. Get pod's Sandbox Pid
